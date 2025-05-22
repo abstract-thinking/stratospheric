@@ -35,7 +35,7 @@
     "github-actions:destroy": "cdk destroy --app \"./mvnw -e -q compile exec:java -Dexec.mainClass=dev.stratospheric.todoapp.cdk.GitHubActionsApp\" --force --require-approval never --all"
   },
   "devDependencies": {
-    "aws-cdk": "2.43.1"
+    "aws-cdk": "2.1000.0"
   },
   "engines": {
     "node": ">=16"
